@@ -1,19 +1,27 @@
-// the question is a bit confusing, so i did it two ways
+// the question is a bit confusing, so i did it three ways
 // method 1
 
-let a; 
-let b;
-a = 40;
-b = 3;
-let multiplyNumber = (a * b);
-console.log(multiplyNumber);
+// let a; 
+// let b;
+// a = 40;
+// b = 3;
+// let multiplyNumber = (a * b);
+// console.log(multiplyNumber);
 
-// method 2
+// // method 2
 
-function numberMultiply() {
-    console.log(40*3)
+// function numberMultiply() {
+//     console.log(40*3)
+// }
+// numberMultiply();
+
+// method3
+function numberMultipl(number1, number2) {
+    console.log(number1 * number2);
 }
-numberMultiply();
+numberMultipl(60, 3);
+numberMultipl(6, 50);
+numberMultipl(98, 6);
 
 
 let firstName = "Muftiat "
