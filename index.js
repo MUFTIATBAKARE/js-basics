@@ -1,4 +1,4 @@
-// the question is a bit confusing, so i did it three ways
+// Question1
 // method 1 - Using variable
 // let a; 
 // let b;
@@ -14,7 +14,7 @@
 // }
 // numberMultiply();
 
-// method3
+// method1
 function numberMultipl(number1, number2) {
     console.log(number1 * number2);
 }
@@ -22,12 +22,14 @@ numberMultipl(60, 3);
 numberMultipl(6, 50);
 numberMultipl(98, 6);
 
+// method2
 const numberMulti = function number(number1, number2) {
     return number1 * number2;
 };
 console.log(numberMulti(6,3));
 console.log(numberMulti(15,30));
 
+// Question2
 let firstName = "Muftiat "
 let lastName = "Bakare Abdullahi"
 let stuternTrack = "FrontEnd"
