@@ -1,3 +1,5 @@
+### Answers to Questions
+
 1. The code - "node filename.js" runs Javascript outside the browser, it runs in the NODE.
 
 2. Javascript can be used to build interactive web app, mobile app, real-time networking app, games etc
